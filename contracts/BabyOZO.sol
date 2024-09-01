@@ -1,4 +1,3 @@
-
 /**
 
  /$$$$$$$            /$$                        /$$$$$$  /$$$$$$$$  /$$$$$$ 
@@ -1170,7 +1169,5 @@ contract BabyOZO is Context, IERC20, Ownable {
         emit Transfer(sender, recipient, tTransferAmount);
     }
 
-
-    
 
 }
