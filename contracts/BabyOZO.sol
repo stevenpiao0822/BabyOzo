@@ -19,7 +19,7 @@
    5% fee auto distribute to all holders  
  */
 
-pragma solidity ^0.6.12;
+pragma solidity ^0.8.24;
 // SPDX-License-Identifier: Unlicensed
 interface IERC20 {
 
