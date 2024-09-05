@@ -259,7 +259,6 @@ abstract contract Context {
     }
 }
 
-
 /**
  * @dev Collection of functions related to the address type
  */
@@ -274,7 +273,6 @@ library Address {
      *
      * Among others, `isContract` will return false for the following
      * types of addresses:
-     *
      *  - an externally-owned account
      *  - a contract in construction
      *  - an address where a contract will be created
@@ -313,6 +311,7 @@ library Address {
 
         // solhint-disable-next-line avoid-low-level-calls, avoid-call-value
         (bool success, ) = recipient.call{ value: amount }("");
+        
         require(success, "Address: unable to send value, recipient may have reverted");
     }
 
